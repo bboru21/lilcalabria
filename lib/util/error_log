@@ -1,0 +1,2 @@
+[22-May-2011 14:45:35] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home2/appalabs/public_html/lilcalabria/lib/util/db_findreplace.php on line 66
+[22-May-2011 14:49:25] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home2/appalabs/public_html/lilcalabria/lib/util/db_findreplace.php on line 66

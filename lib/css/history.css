@@ -1,0 +1,34 @@
+#quotes li, #term li {
+	font-size:12px;
+	list-style:none;
+	margin:5px;
+	margin-left:-40px;
+}
+
+.caption {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	text-indent: 25px;
+}
+
+#quote_form #term_form {
+	padding:2px;
+}
+
+#quote_form textarea, #term_form textarea {
+	color:#333333;
+	height: 100px;
+	margin-bottom:5px;
+	width:90%;
+}
+
+#quote_form input[type=text], #term_form input[type=text] {
+	color:#333333;
+	margin-bottom:5px;
+	width:90%;
+}
+
+#quote_form label, #term_form label {
+	color:#333333;	
+}

@@ -1,0 +1,10 @@
+body {
+	background:url(../../images/site/black_purple_background.jpg);
+	background-repeat:repeat-x;
+	background-attachment:fixed;
+}
+
+a:link { color:#330788 !important; }
+a:visited { color:#330788 !important; }
+a:hover { color:#790788 !important; }
+a:anchor { color:#330788 !important; }

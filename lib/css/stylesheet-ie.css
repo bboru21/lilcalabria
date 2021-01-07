@@ -1,0 +1,68 @@
+/* BEGIN: Columns */
+ul.triple_columns {
+	/*padding:0px;*/		
+} 
+.triple_columns li {
+	/*font-size:12px;*/
+	width: 236px;
+	/*min-height: 175px;*/
+	/*display: -moz-inline-stack;
+	display: inline-block;
+	padding:2px;
+	vertical-align: top;
+	margin: 3px;*/
+				
+	/* for proper inline:block rendering in IE7 */
+	/* see http://blog.mozilla.com/webdev/2009/02/20/cross-browser-inline-block/ */
+	/*zoom: 1;
+	*display: inline;
+	_height: 175px;*/
+}
+
+ul.double_columns {
+	/*padding:0px;	*/	
+}
+.double_columns li {
+	/*font-size:12px;*/
+	width: 350px;
+	/*min-height: 175px;*/
+	/*display: -moz-inline-stack;
+	display: inline-block;
+	padding:2px;
+	vertical-align: top;
+	margin: 3px;*/
+			
+	/* for proper inline:block rendering in IE7 */
+	/* see http://blog.mozilla.com/webdev/2009/02/20/cross-browser-inline-block/ */
+	/*zoom: 1;
+	*display: inline;
+	_height: 175px;*/
+}
+/* END: Columns */
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------
+BEGIN: Recent Activity Styles
+-------------------------------------------------------------------------------------------------------------------------------
+*/
+#notifications li {
+	height:auto;
+}
+/*
+-------------------------------------------------------------------------------------------------------------------------------
+END: Recent Activity Styles
+-------------------------------------------------------------------------------------------------------------------------------
+*/
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------
+BEGIN: MessageBoard Styles
+-------------------------------------------------------------------------------------------------------------------------------
+*/
+#messages li {
+	height:auto;
+}
+/*
+-------------------------------------------------------------------------------------------------------------------------------
+END: MessageBoard Styles
+-------------------------------------------------------------------------------------------------------------------------------

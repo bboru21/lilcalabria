@@ -1,0 +1,14 @@
+#main { 
+	background:url(../../images/site/black_green_background.jpg) !important;
+	background-repeat:repeat-x;
+	background-attachment:fixed;
+	background-position:bottom;
+	background-color:#000000;
+	/*font-family:Tahoma, Arial, Helvetica, sans-serif;*/
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+a:link { font-family:Tahoma, Arial, Helvetica, sans-serif; color:#00783B !important; font-weight:bold; text-decoration: none; }
+a:visited { font-family:Tahoma, Arial, Helvetica, sans-serif; color:#00783B !important; font-weight:bold; text-decoration: none; }
+a:hover { font-family:Tahoma, Arial, Helvetica, sans-serif; color:#078F71 !important; font-weight:bold; text-decoration: underline; }
+a:anchor { font-family:Tahoma, Arial, Helvetica, sans-serif; color:#00783B !important; font-weight:bold; text-decoration: none; }

@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>404 - Page Not Found</title>
+
+<meta name="robots" content="noindex, nofollow">
+
+<style>
+body {
+	background-image:url(images/site/404/star_bg.gif);
+}
+
+#error {
+	z-index:0;
+}
+
+#block1 {
+	z-index:10;
+}
+
+#block2 {
+	z-index:20;	
+}
+
+img {
+	display:block;
+}
+
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.js"></script>
+<script>
+/*
+ * jQuery Rawr zoom v1.0 - http://hungred.com/2009/04/07/javascript-framework-jquery/tutorial-jquery-effect-zoom/
+ * The capability to zoom in and out of any object
+ *
+ * TERMS OF USE - jQuery Rawr zoom
+ * Open source under the BSD License. 
+ * Copyright  2009 Clay Lua
+ * All rights reserved.
+ * 
+ * Redistribution and use in source and binary forms, with or without modification, 
+ * are permitted provided that the following conditions are met:
+ * 
+ * Redistributions of source code must retain the above copyright notice, this list of 
+ * conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice, this list 
+ * of conditions and the following disclaimer in the documentation and/or other materials 
+ * provided with the distribution.
+ * 
+ * Neither the name of the author nor the names of contributors may be used to endorse 
+ * or promote products derived from this software without specific prior written permission.
+ * 
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY 
+ * EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+ *  COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ *  EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+ *  GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED 
+ * AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ *  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED 
+ * OF THE POSSIBILITY OF SUCH DAMAGE. 
+ *
+*/
+(function($){
+$.fn.zoom= function(options) {
+  $.fn.zoom.defaults = {
+	zoomWidth: 10, 
+	zoomHeight: 10, 
+	duration: 5000
+  };
+  var options = $.extend($.fn.zoom.defaults, options);
+  var selector = this;
+  var oriH = 0;
+  var oriW = 0;
+  var opac = 1;
+  return this.each(function() {
+	oriH = $(this).height();
+	oriW = $(this).width();
+	opac = $(this).css("opacity");
+	
+	$(this).load(
+	
+	function(){
+		$(selector).stop(true,false)
+		.animate({	height: options.zoomHeight+"px",
+					width: options.zoomWidth+"px", 
+					marginTop: ((oriH-options.zoomHeight)/2)+"px", 
+					marginLeft: ((oriW-options.zoomWidth)/2)+"px"
+				}, options.duration)
+		.fadeTo(1,0);
+	}
+	
+	,
+	function(){
+		$(selector).stop(true,false)
+		.fadeTo(1,opac)
+		.animate({	height: oriH+"px", 
+					width:oriW+"px",   
+					marginTop: "0px",
+					marginLeft: "0px"
+				}, options.duration);
+	});
+	
+  }); 
+ };
+ 
+ 
+})(jQuery);
+</script>
+
+</head>
+
+<body>
+
+<div id="container" align="center">
+	<img id="error" src="/images/site/404/404.png" align="center" style="vertical-align:middle" />
+
+	<!--<img id="block1" src="/images/site/404/block1.png" align="center" style="vertical-align:middle" />-->   
+    <!--<img id="block2" src="/images/site/404/block2.png" align="center" style="vertical-align:middle" />-->
+</div>
+<script>
+//var ht = $(window).height();
+
+//$('#block1, #block2').css('marginTop', (ht));
+//$('#container').css('marginTop', (ht/4));
+
+
+$('#error').zoom({ zoomWidth: 10, zoomHeight: 10, duration: 7000 });
+
+
+
+/*
+$('#book').animate({
+    opacity: 0.25,
+    left: '+=50',
+    height: 'toggle'
+  }, 5000, function() {
+    // Animation complete.
+  });
+*/
+/*setTimeout(function() {
+	$('#block1').animate({
+		//height:10,
+		//width:10,
+		marginTop:(ht-225)
+	}, 7000,
+	function() {
+		$(this).animate({
+			height:10,
+			width:50,
+			marginTop:(ht/4)
+		}, 10000,
+			function() {
+				$(this).css('display', 'none');	
+			});
+		//$(this).css('display', 'none');
+	});
+}, 12000);*/
+
+/*setTimeout(function() {
+	$('#block2').animate({
+		height:10,
+		width:10,
+		marginTop:(ht/4)
+	}, 12000);
+}, 4500);*/
+
+//var $node = $('#block1');
+//$node.css('marginTop', ht);
+
+
+//scrollUp($('#block1'));
+
+</script>
+</body>
+</html> 

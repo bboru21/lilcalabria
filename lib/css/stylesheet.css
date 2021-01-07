@@ -1,0 +1,416 @@
+/* CSS Document */
+#main { 
+	background:url(../../images/site/black_red_background.jpg);
+	/*background:url(../../images/site/black_green_background.jpg) !important;*/
+	background-repeat:repeat-x;
+	background-attachment:fixed;
+	background-position:bottom;
+	background-color:#000000;
+	/*font-family:Tahoma, Arial, Helvetica, sans-serif;*/
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+#main #presence {
+	/*background-image:url(../../images/site/paper_background.gif);*/
+	background:#CCC;
+	border:1px solid #999999;
+	bottom:0;
+	color:#333333;
+	float:right;
+	font-size:12px;
+	/*height:25px;*/
+	padding:5px;
+	position:fixed;
+	right:0; 
+	width:300px;
+	z-index:99;
+}
+
+fieldset {
+	border: 1px solid #CCC;	
+}
+
+legend {
+	color:#333333;
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	padding:5px;
+}
+
+/*general settings for all anchor tags */
+a:link { font-family:Tahoma, Arial, Helvetica, sans-serif; color:#990000; font-weight:bold; text-decoration: none; }
+a:visited { font-family:Tahoma, Arial, Helvetica, sans-serif; color:#990000; font-weight:bold; text-decoration: none; }
+a:hover { font-family:Tahoma, Arial, Helvetica, sans-serif; color:#CC0000; font-weight:bold; text-decoration: underline; }
+a:anchor { font-family:Tahoma, Arial, Helvetica, sans-serif; color:#990000; font-weight:bold; text-decoration: none; }
+
+.bodyFont1 {
+	color:#990000; 
+	font-size:12px;
+}
+
+.headline {
+	color:#333333;
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	line-height:18px;
+}
+
+.bodyHeader2 {
+	color:#000000;
+	font-family:"Times New Roman", Times, serif;
+	font-size:30px;
+	font-weight:bold;
+}
+
+#greeting a {
+	font-size:10px;
+}
+
+/******************************************************************************************************************************
+BEGIN: General Form Styles
+******************************************************************************************************************************/
+
+form, form input, textarea {
+	color:#999999;
+	display:block;
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	line-height:12px;
+	margin-bottom:15px;
+	margin-top:5px;
+	/*width:200px;*/
+}   
+  
+input.button, a.button:link, a.button:visited, a.button:active  {
+	color:#FFF !important;
+	cursor:pointer;
+	font-weight:bold;
+	font-size:10px;
+	height:22px;
+	background-color:#b34040;
+	border:2px solid #900;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;
+	padding:2px;
+	text-shadow: 1px 1px 1px #900;
+	text-decoration:none !important;
+}
+
+input.button:hover, a.button:hover {
+	text-shadow: 0px 0px 5px #FFF;
+}
+
+label {
+	color:#900;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.flagged {
+	/*background-color:#b34040;*/
+	background-color:#F00;	
+}
+ 
+/******************************************************************************************************************************
+END: General Form Styles
+******************************************************************************************************************************/
+
+
+/******************************************************************************************************************************
+BEGIN: Login Styles
+******************************************************************************************************************************/
+
+ #wrapper {
+	position:absolute;
+	z-index: 1;
+ }
+
+#login { 
+	background-color:#000;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+#login #wrapper {
+	min-height:500px;
+	min-width:500px;
+	padding:20px;
+	position:absolute;
+	z-index: 1;
+}
+
+#login .background {
+	display:none;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index:0;
+ }
+
+#login h5, #login h4 {
+	color:#900;	
+}
+ 
+#login input, #login-retrieval input {
+	width:200px;
+}
+
+#login .button, #login-retrieval .button {
+	width:65px; 
+}
+
+#login #fancybox-outer {
+	border:2px solid #FFF;
+	background-color:#000;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+
+#fancybox-content {
+	border-width:0px !important;
+}
+
+/* result message */
+#retrieval-form {
+	display:block;
+	width:275px;
+	height:200px;
+}
+#result-message {
+	display:inline-block;
+	height:32px;
+}
+#result-message span {
+	display:inline-block;
+	font-size:14px;
+	font-weight:bold;
+	margin-top:-20px;
+	vertical-align:middle;
+}
+/******************************************************************************************************************************
+END: Login Styles
+******************************************************************************************************************************/
+
+.promoFont1 {
+color:#999999;
+font-family:Tahoma, Arial, Helvetica, sans-serif;
+font-size:30px;}
+
+.navLink1 a:link { font-family:Tahoma, Arial, Helvetica, sans-serif; color:#990000; font-size:12px; font-weight:bold; text-decoration: none; }
+.navLink1 a:visited { font-family:Tahoma, Arial, Helvetica, sans-serif; color:#990000; font-size:12px; font-weight:bold; text-decoration: none; }
+.navLink1 a:hover { font-family:Tahoma, Arial, Helvetica, sans-serif; color:#CC0000; font-size:12px; font-weight:bold; text-decoration: underline; }
+.navLink1 a:active { font-family:Tahoma, Arial, Helvetica, sans-serif; color:#990000; font-size:12px; font-weight:bold; text-decoration: none; }
+
+a .bodyLink1 a:link { font-family:Tahoma, Arial, Helvetica, sans-serif; color:#990000; font-size:10px; font-weight:bold; text-decoration: none; }
+a .bodyLink1 a:visited { font-family:Tahoma, Arial, Helvetica, sans-serif; color:#990000; font-size:10px; font-weight:bold; text-decoration: none; }
+a .bodyLink1 a:hover { font-family:Tahoma, Arial, Helvetica, sans-serif; color:#CC0000; font-size:10px; font-weight:bold; text-decoration: underline; }
+a .bodyLink1 a:active { font-family:Tahoma, Arial, Helvetica, sans-serif; color:#990000; font-size:10px; font-weight:bold; text-decoration: none; }
+
+table.nav1 {
+	border-width: 1px;
+	border-color: #999999;
+	border-style: solid;
+	border-collapse: collapse;
+}
+
+#body {
+	border-width: 1px;
+	border-color: #999999;
+	border-style: solid;
+	border-collapse: collapse;
+	width:800px;
+	color:#333333;
+	font-size:12px;
+}
+
+/* paper background */
+.nav1, #body { background-image:url('../../images/site/paper_background.gif'); }
+
+#body a:link { font-family:Tahoma, Arial, Helvetica, sans-serif; color:#990000; font-weight:bold; text-decoration: none; }
+#body a:visited { font-family:Tahoma, Arial, Helvetica, sans-serif; color:#990000; font-weight:bold; text-decoration: none; }
+#body a:hover { font-family:Tahoma, Arial, Helvetica, sans-serif; color:#CC0000; font-weight:bold; text-decoration: underline; }
+#body a:active { font-family:Tahoma, Arial, Helvetica, sans-serif; color:#990000; font-weight:bold; text-decoration: none; }
+
+#content img {
+	border:1px solid #333333;		
+}
+
+/* BEGIN: Columns */
+ul.triple_columns {
+	padding:0px;		
+} 
+.triple_columns li {
+	font-size:12px;
+	width: 245px;
+	/*min-height: 175px;*/
+	display: -moz-inline-stack;
+	display: inline-block;
+	padding:2px;
+	vertical-align: top;
+	margin: 3px;
+			
+	/* for proper inline:block rendering in IE7 */
+	/* see http://blog.mozilla.com/webdev/2009/02/20/cross-browser-inline-block/ */
+	zoom: 1;
+	*display: inline;
+	_height: 175px;
+}
+
+ul.double_columns {
+	padding:0px;		
+}
+.double_columns li {
+	font-size:12px;
+	width: 375px;
+	/*min-height: 175px;*/
+	display: -moz-inline-stack;
+	display: inline-block;
+	padding:2px;
+	vertical-align: top;
+	margin: 3px;
+			
+	/* for proper inline:block rendering in IE7 */
+	/* see http://blog.mozilla.com/webdev/2009/02/20/cross-browser-inline-block/ */
+	zoom: 1;
+	*display: inline;
+	_height: 175px;
+}
+/* END: Columns */
+
+hr.divider {
+	color:#333;
+	background-color: #333;
+	border:none;
+	height: 1px;
+	width: 100%;
+}
+
+#debugging ul{
+	color:#FF0000;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	}
+	
+
+#nav_tr2 a:link, #nav_tr2 a:visited, #nav_tr2 a:active {
+	font-family:Tahoma, Arial, Helvetica, sans-serif; color:#990000; font-size:8px; font-weight:bold; text-decoration: none; 
+	} 
+#nav_tr2 a:hover {
+	font-family:Tahoma, Arial, Helvetica, sans-serif; color:#CC0000; font-size:8px; font-weight:bold; text-decoration: underline;
+	}
+
+#member_form {
+padding:5px;}
+
+/* sides of the body */
+
+#side {
+width:10px;
+}
+ 
+.switch {
+	color:#990000; 
+	cursor: default;
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold; 
+	text-decoration: none;	
+}
+
+.switch a:hover {
+	color:#CC0000;
+	font-family:Tahoma, Arial, Helvetica, sans-serif; 
+	font-size:10px;
+	font-weight:bold; 
+	text-decoration: underline;
+}
+
+.lowlight {
+	background-color: #CCC;
+}
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------
+BEGIN: Recent Activity Styles
+-------------------------------------------------------------------------------------------------------------------------------
+*/
+#notifications li {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:10px;
+	list-style:none;
+	margin-bottom:0px;
+	margin-left:-40px;
+	margin-right:0px;
+	margin-top:0px;
+	padding:0px;
+}
+/*
+-------------------------------------------------------------------------------------------------------------------------------
+END: Recent Activity Styles
+-------------------------------------------------------------------------------------------------------------------------------
+*/
+
+/******************************************************************************************************************************
+BEGIN: MessageBoard Styles
+******************************************************************************************************************************/
+#index {
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+
+#messages b, #messages a {
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+
+#messages span {
+	display:inline;
+	margin:2px;
+}
+
+#messages span.memberid {
+	display:none;
+}
+
+#messages li {
+	font-size:12px;
+	line-height:14px;
+	list-style:none;
+	margin:5px;
+	margin-left:-40px;
+}
+
+#edit-form {
+	display:none;
+	background-color:#CCC;
+	padding:8px;
+	position:absolute;
+}
+
+#edit-form textarea {
+	height:95%;
+	width:98%;
+}
+
+#board-form textarea {
+	width:75%;
+	height:100px;
+}
+
+#board-form textarea, #edit-form textarea {
+	font-size:12px;
+	line-height:14px;
+}
+
+/******************************************************************************************************************************
+END: MessageBoard Styles
+******************************************************************************************************************************/
+
+#copy {
+	font-size:10px;
+	text-align:center;
+}

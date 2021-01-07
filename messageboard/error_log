@@ -1,0 +1,69 @@
+[16-Aug-2010 07:58:53] PHP Notice:  Undefined variable: messages in /home2/appalabs/public_html/lilcalabria/lib/class/class.messageboard.php on line 116
+[16-Aug-2010 07:59:02] PHP Notice:  Undefined variable: messages in /home2/appalabs/public_html/lilcalabria/lib/class/class.messageboard.php on line 116
+[16-Aug-2010 20:10:49] PHP Notice:  Undefined index:  postid in /home2/appalabs/public_html/lilcalabria/messageboard/update.php on line 12
+[16-Aug-2010 20:10:49] PHP Notice:  Undefined index:  post in /home2/appalabs/public_html/lilcalabria/messageboard/update.php on line 13
+[16-Aug-2010 20:10:58] PHP Notice:  Undefined index:  postid in /home2/appalabs/public_html/lilcalabria/messageboard/update.php on line 12
+[16-Aug-2010 20:10:58] PHP Notice:  Undefined index:  post in /home2/appalabs/public_html/lilcalabria/messageboard/update.php on line 13
+[16-Aug-2010 20:10:58] PHP Notice:  Undefined index:  postid in /home2/appalabs/public_html/lilcalabria/messageboard/update.php on line 12
+[16-Aug-2010 20:10:58] PHP Notice:  Undefined index:  post in /home2/appalabs/public_html/lilcalabria/messageboard/update.php on line 13
+[16-Aug-2010 20:11:00] PHP Notice:  Undefined index:  postid in /home2/appalabs/public_html/lilcalabria/messageboard/update.php on line 12
+[16-Aug-2010 20:11:00] PHP Notice:  Undefined index:  post in /home2/appalabs/public_html/lilcalabria/messageboard/update.php on line 13
+[16-Aug-2010 20:11:03] PHP Notice:  Undefined index:  postid in /home2/appalabs/public_html/lilcalabria/messageboard/update.php on line 12
+[16-Aug-2010 20:11:03] PHP Notice:  Undefined index:  post in /home2/appalabs/public_html/lilcalabria/messageboard/update.php on line 13
+[16-Aug-2010 20:11:06] PHP Notice:  Undefined index:  postid in /home2/appalabs/public_html/lilcalabria/messageboard/update.php on line 12
+[16-Aug-2010 20:11:06] PHP Notice:  Undefined index:  post in /home2/appalabs/public_html/lilcalabria/messageboard/update.php on line 13
+[16-Aug-2010 20:12:09] PHP Notice:  Undefined index:  postid in /home2/appalabs/public_html/lilcalabria/messageboard/update.php on line 12
+[16-Aug-2010 20:12:09] PHP Notice:  Undefined index:  post in /home2/appalabs/public_html/lilcalabria/messageboard/update.php on line 13
+[16-Aug-2010 20:14:07] PHP Notice:  Undefined index:  postid in /home2/appalabs/public_html/lilcalabria/messageboard/update.php on line 12
+[16-Aug-2010 20:14:07] PHP Notice:  Undefined index:  post in /home2/appalabs/public_html/lilcalabria/messageboard/update.php on line 13
+[16-Aug-2010 20:14:19] PHP Notice:  Undefined index:  postid in /home2/appalabs/public_html/lilcalabria/messageboard/update.php on line 12
+[16-Aug-2010 20:14:19] PHP Notice:  Undefined index:  post in /home2/appalabs/public_html/lilcalabria/messageboard/update.php on line 13
+[16-Aug-2010 20:14:41] PHP Notice:  Undefined index:  postid in /home2/appalabs/public_html/lilcalabria/messageboard/update.php on line 12
+[16-Aug-2010 20:14:41] PHP Notice:  Undefined index:  post in /home2/appalabs/public_html/lilcalabria/messageboard/update.php on line 13
+[16-Aug-2010 20:14:42] PHP Notice:  Undefined index:  postid in /home2/appalabs/public_html/lilcalabria/messageboard/update.php on line 12
+[16-Aug-2010 20:14:42] PHP Notice:  Undefined index:  post in /home2/appalabs/public_html/lilcalabria/messageboard/update.php on line 13
+[16-Aug-2010 20:14:58] PHP Notice:  Undefined index:  postid in /home2/appalabs/public_html/lilcalabria/messageboard/update.php on line 12
+[16-Aug-2010 20:14:58] PHP Notice:  Undefined index:  post in /home2/appalabs/public_html/lilcalabria/messageboard/update.php on line 13
+[20-Aug-2010 08:10:20] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[20-Aug-2010 08:10:20] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[20-Aug-2010 08:10:20] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[20-Aug-2010 08:10:20] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[20-Aug-2010 08:10:20] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'appalabs'@'localhost' (using password: NO) in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[20-Aug-2010 08:10:58] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[20-Aug-2010 08:10:58] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[20-Aug-2010 08:10:58] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[20-Aug-2010 08:10:58] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[20-Aug-2010 08:10:58] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'appalabs'@'localhost' (using password: NO) in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[20-Aug-2010 08:11:12] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[20-Aug-2010 08:11:12] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[20-Aug-2010 08:11:12] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[20-Aug-2010 08:11:12] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[20-Aug-2010 08:11:12] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'appalabs'@'localhost' (using password: NO) in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[13-Feb-2011 13:07:52] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[13-Feb-2011 13:07:52] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[13-Feb-2011 13:07:52] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[13-Feb-2011 13:07:52] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[13-Feb-2011 13:07:52] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'appalabs'@'localhost' (using password: NO) in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[13-Feb-2011 13:08:45] PHP Notice:  Use of undefined constant config - assumed 'config' in /home2/appalabs/public_html/lilcalabria/messageboard/post.php on line 6
+[13-Feb-2011 13:10:48] PHP Parse error:  syntax error, unexpected '=' in /home2/appalabs/public_html/lilcalabria/messageboard/post.php on line 3
+[13-Feb-2011 13:11:47] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[13-Feb-2011 13:11:47] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[13-Feb-2011 13:11:47] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[13-Feb-2011 13:11:47] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[13-Feb-2011 13:11:47] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'appalabs'@'localhost' (using password: NO) in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[13-Feb-2011 13:15:35] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[13-Feb-2011 13:15:35] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[13-Feb-2011 13:15:35] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[13-Feb-2011 13:15:35] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[13-Feb-2011 13:15:35] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'appalabs'@'localhost' (using password: NO) in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[13-Feb-2011 13:17:54] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[13-Feb-2011 13:17:54] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[13-Feb-2011 13:17:54] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[13-Feb-2011 13:17:54] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[13-Feb-2011 13:17:54] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'appalabs'@'localhost' (using password: NO) in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[13-Feb-2011 13:19:27] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[13-Feb-2011 13:19:27] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[13-Feb-2011 13:19:27] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[13-Feb-2011 13:19:27] PHP Notice:  Undefined variable: config in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[13-Feb-2011 13:19:27] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'appalabs'@'localhost' (using password: NO) in /home2/appalabs/public_html/lilcalabria/lib/includes/opendb.php on line 7
+[13-Feb-2011 13:22:40] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/appalabs/public_html/lilcalabria/lib/class/phpmailer/class.phpmailer.php:418) in /home2/appalabs/public_html/lilcalabria/messageboard/post.php on line 50

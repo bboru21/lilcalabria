@@ -1,0 +1,63 @@
+ 
+/* CSS Document */
+
+form, p, span {
+	margin:0;
+	padding:0; }
+ 
+input { font:12px arial; }
+ 
+#chat_wrapper, #loginform {
+	
+	margin:0 auto;
+	padding-bottom:25px;
+	background:#CCCCCC;
+	width:300px;
+	border:1px solid #999999; 
+}
+ 
+#loginform { 
+	padding-top:18px;
+}
+ 
+#loginform p, #loginform label { 
+	margin: 5px;
+	font-family:Tahoma,Geneva,sans-serif;
+	font-size:10px;
+	color:#333;
+	font-weight:bold;
+}
+ 
+#chatbox {
+	text-align:left;
+	margin:0 auto;
+	margin-bottom:25px;
+	padding:10px;
+	background:#fff;
+	height:270px;
+	width:275px;
+	overflow:auto; 
+}
+
+#chatbox b {
+	font-family:Tahoma,Geneva,sans-serif;
+	font-size:10px;
+	color:#333;
+	font-weight:bold;	
+}
+ 
+#usermsg {
+	width:200px;
+	border:1px solid #999; }
+ 
+#submit { width: 60px; }
+ 
+.error { color: #ff0000; }
+ 
+#menu { padding:12.5px 25px 12.5px 25px; }
+ 
+.welcome { float:left; }
+ 
+.logout { float:right; }
+ 
+.msgln { margin:0 0 2px 0; }
